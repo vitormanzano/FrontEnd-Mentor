@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Figtree", serif   ;
+}
+
+.main-content {
+    background-color: white ;
+    text-align: center;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 15px;
+    max-width: 350px;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+}
+
+.main-content img {
+    border-radius: 6px;
+}
+
+
+
+.main-content__learning {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.main-content__date {
+    display: flex;
+}
+
+
+.foundations {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 26px;
+}
+
+.main-content > p {
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer > img {
+    transform: scale(0.7); 
+}
+
+footer > p {
+    font-weight: 800;
+}
